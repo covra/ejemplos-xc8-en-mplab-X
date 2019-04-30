@@ -1,29 +1,34 @@
 #ifndef __flex_lcd_H
 #define __flex_lcd_H
-//******************************************
-//  Libreria para control de LCD           *
-//  Modo Control 4 bits                    * 
-//  Hector Ramos
-//******************************************
+#define _XTAL_FREQ 1000000
+//*****************************************************
+//  Libreria para control de LCD                      *
+//  Modo Control 4 lineas                             * 
+//  CovraWorkS-- CWS---                               *
+//  v1.5  2019                                                  *
+//  para XC8 v2.05                                                  *
+// Incluir en el main: #include"flex_lcd.h"           *
+// No añadir a la carpeta de proyecto "Header Files"  *
+//*****************************************************
 
 
-#define LCD_RD7     PORTDbits.RD7       // D7
-#define TRISRD7     TRISDbits.TRISD7
+#define LCD_RD7     PORTDbits.RD3       // D7
+#define TRISRD7     TRISDbits.TRISD3
 
-#define LCD_RD6     PORTDbits.RD6       // D6
-#define TRISRD6     TRISDbits.TRISD6
+#define LCD_RD6     PORTDbits.RD2       // D6
+#define TRISRD6     TRISDbits.TRISD2
 
-#define LCD_RD5     PORTDbits.RD5       // D5
-#define TRISRD5     TRISDbits.TRISD5
+#define LCD_RD5     PORTDbits.RD1       // D5
+#define TRISRD5     TRISDbits.TRISD1
 
-#define LCD_RD4     PORTDbits.RD4       // D4
-#define TRISRD4     TRISDbits.TRISD4
+#define LCD_RD4     PORTDbits.RD0       // D4
+#define TRISRD4     TRISDbits.TRISD0
 
-#define LCD_EN      PORTEbits.RE2       // EN
-#define TRISEN      TRISEbits.TRISE2
+#define LCD_EN      PORTDbits.RD4       // EN
+#define TRISEN      TRISDbits.TRISD4
 
-#define LCD_RS      PORTEbits.RE1       // RS
-#define TRISRS      TRISEbits.TRISE1
+#define LCD_RS      PORTDbits.RD5      // RS
+#define TRISRS      TRISDbits.TRISD1
 
 //comandos disponibles
 #define      LCD_FIRST_ROW           128
