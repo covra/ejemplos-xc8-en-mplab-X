@@ -1,15 +1,17 @@
 #ifndef __flex_lcd_H
 #define __flex_lcd_H
 #define _XTAL_FREQ 1000000
-//*****************************************************
-//  Libreria para control de LCD                      *
-//  Modo Control 4 lineas                             * 
-//  CovraWorkS-- CWS---                               *
-//  v1.5  2019                                                  *
-//  para XC8 v2.05                                                  *
-// Incluir en el main: #include"flex_lcd.h"           *
-// No añadir a la carpeta de proyecto "Header Files"  *
-//*****************************************************
+//*************************************************************
+//  Libreria para control de LCD                              *
+//  Modo Control 4 lineas                                     * 
+//  CovraWorkS-- CWS---                                       *
+//  v1.5  2019                                                *
+//  para XC8 v2.05                                            *
+// Incluir en el main: #include"flex_lcd.h"                   *
+// NOTAS: -No añadir a la carpeta de proyecto "Header Files"  *
+//        -O Añadir y desactivar                              *         
+//        -Incluir en  "mains" los ANSEL y TRIS               *
+//*************************************************************
 
 
 #define LCD_RD7     PORTDbits.RD3       // D7
