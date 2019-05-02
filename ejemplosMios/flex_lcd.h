@@ -31,7 +31,7 @@
 #define TRISEN      TRISDbits.TRISD4
 
 #define LCD_RS      PORTDbits.RD5      // RS
-#define TRISRS      TRISDbits.TRISD1
+#define TRISRS      TRISDbits.TRISD5
 
 //comandos disponibles
 #define      LCD_FIRST_ROW           128
