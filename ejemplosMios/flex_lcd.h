@@ -5,12 +5,12 @@
 //  Libreria para control de LCD                              *
 //  Modo Control 4 lineas                                     * 
 //  CovraWorkS-- CWS---                                       *
-//  v1.6  2019                                                *
+//  v1.61  2019                                               *
 //  para XC8 v2.05                                            *
 // Incluir en el main: #include"flex_lcd.h"                   *
 // NOTAS: - Definir _XTAL_FREQ                                *
 //        - 4 + 2 lineas de control, chip LCD 16x2 HD44780    *         
-//        -Incluir en  "main" los ANSEL y TRIS                *
+//        - Incluir en  "main" los ANSEL  correspondientes    *
 //                                                            *
 //*************************************************************
 
