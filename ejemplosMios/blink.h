@@ -12,6 +12,7 @@
 //        - Establecer frecuencia oscilador en _XTAL_FREQ     *         
 //        - Establecer el tiempo delayTime de parpadeo        *
 //        - Definir los bits TRIS y LAT  de ubicacion del led *
+//                                                            *
 //*************************************************************
 
 
