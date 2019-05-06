@@ -10,7 +10,7 @@
 //  para XC8 v2.05                                            *
 // Incluir en el main: #include"pantallaCWS.h"                *
 // NOTAS: - Invocar la funcion:                               *
-//          pantallaCWS ("nombreProyecto", num_de_segundos)     *
+//          pantallaCWS ("nombreProyecto", num_de_segundos)   *
 //        - Establecer frecuencia oscilador en _XTAL_FREQ     *  
 //        - Incluir  "flex_lcd.h"                             *
 //          si no esta en el mismo directorio                 *
