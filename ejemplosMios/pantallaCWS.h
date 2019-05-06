@@ -6,11 +6,11 @@
 //  Libreria de presentacion de proyecto PANTALLACWS          *
 //                                                            * 
 //  CovraWorkS-- CWS---                                       *
-//  v1.00  2019                                               *
+//  v1.02  2019                                               *
 //  para XC8 v2.05                                            *
 // Incluir en el main: #include"pantallaCWS.h"                *
 // NOTAS: - Invocar la funcion:                               *
-//          pantallaCWS (nombreProyecto, num_de_segundos)     *
+//          pantallaCWS ("nombreProyecto", num_de_segundos)     *
 //        - Establecer frecuencia oscilador en _XTAL_FREQ     *  
 //        - Incluir  "flex_lcd.h"                             *
 //          si no esta en el mismo directorio                 *
@@ -43,5 +43,5 @@ extern "C" {
 }
 #endif /* __cplusplus */
 
-#endif	/* XC_HEADER_TEMPLATE_H */
+#endif	/* XC_PANTALLACWS_H */
 
